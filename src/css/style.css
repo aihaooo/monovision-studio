@@ -237,3 +237,33 @@ html {
 		box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
 	}
 }
+
+.inspiration {
+	padding-top: 80px;
+	background: var(--light-color);
+}
+
+.inspiration__grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+
+	column-gap: 30px;
+	row-gap: 50px;
+	margin-top: 50px;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+	}
+}
+
+.inspiration__sky-img {
+	grid-area: 2 / 2 / 3 / 4;
+}
+
+.inspiration__tenement-img {
+	grid-area: 1 / 4 / 3 / 5;
+}
